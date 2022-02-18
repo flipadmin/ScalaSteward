@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Execute Scala Steward
-        uses: scala-steward-org/scala-steward-action@vX.Y.Z
+        uses: scala-steward-org/scala-steward-action@v2.18.0
         with:
           # A GitHub personal access token tied to a user that will create
           # pull requests against your projects to update dependencies. More
